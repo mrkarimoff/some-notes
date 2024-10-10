@@ -28,3 +28,16 @@ Example:
 ```
 
 Yuqoridagi misolda ikki turli formatdagi video fayllar kiritilgan: MP4 va WebM. Brauzer qaysi formatni qo‘llab-quvvatlasa, o‘sha formatdagi videoni o‘ynatadi.
+
+---
+
+`<audio>` - veb-sahifalarda ovozli fayllarni ijro etish uchun ishlatiladi. (Video tegida ishlatiladigan barcha attributlar bu tegda ham ishlaydi)
+
+Example:
+
+```html
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3" />
+  Sizning brauzeringiz audiolarni qo‘llab-quvvatlamaydi.
+</audio>
+```
